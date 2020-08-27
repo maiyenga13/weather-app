@@ -1,0 +1,188 @@
+
+.CurrentWeather{
+    padding: 0;
+    text-align: center;
+    height: 100%;
+}
+.city-text {
+   
+    text-align: center;
+}
+.temp-card {
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.06);
+    height: 15rem;
+    width: 22rem;
+    position: relative;
+    left: 22rem;
+    top: 1rem;
+    border-radius: 7px 7px 7px;
+}
+.sun-card {
+  display: block;
+    text-align: center;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.06);
+    height: 15rem;
+    width: 22rem;
+    position: relative;
+    left: 35rem;
+    bottom: 11.75rem;
+    border-radius: 7px 7px 7px;    
+}
+.sunrise{
+    width: 5rem;
+    height: 5rem;
+}
+
+.sunrise-container {
+    position: relative;
+    right: 5rem;
+    top: 2rem;
+}
+.sunset-container {
+    position: relative;
+    left: 5rem;
+    bottom: 22.2rem;
+}
+.home-btn, .home-btn:focus,
+.home-btn:hover, .home-btn:active {
+    position: absolute;
+    top: 3rem;
+    left: 8rem;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 18px;
+    border-radius: 7px 7px 7px;
+    border: none;
+    background-color: #7494EA;
+    color: white;
+}
+.vl {
+    border-left: 3px solid grey;
+  height: 180px;
+  opacity: .4;
+  position: relative;
+  left: 11rem;
+  bottom: 10rem;
+    
+}
+.sunset {
+    width: 5rem;
+    height: 5rem;
+}
+
+.feelsLike-card {
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.06);
+    height: 15rem;
+    width: 22rem;
+    position: relative;
+    left: 50rem;
+    bottom: 14rem;
+    border-radius: 7px 7px 7px; 
+}
+.wind-text{
+    position: relative;
+    top: 1rem;
+}
+.wind-card {
+   display: block;
+    text-align: center;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.06);
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    left: 15rem;
+    bottom: 28rem;
+    
+    border-radius: 7px 7px 7px;  
+}
+.water-card {
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.06);
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    left: 62rem;
+    bottom: 44rem;
+    border-radius: 7px 7px 7px; 
+}
+.icon {
+    position: relative;
+    width: 6.5rem;
+    height: 6.5rem;
+    right: 7rem;
+    top: 4rem;
+}
+.description {
+    position: relative;
+    text-align: center;
+}
+.c-button, .c-button:hover, 
+.c-button:active, .c-button:focus {
+    position: relative;
+    bottom: 6rem;
+    right: .5rem;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 12px;
+    border-radius: 7px 7px 7px;
+    border: none;
+    background-color: #7494EA;
+    color: white;
+}
+.f-button, .f-button:hover,
+.f-button:active, .f-button:focus{
+    position: relative;
+    bottom: 6rem;
+    width: 5rem;
+    left:.5rem;
+    height: 2.5rem;
+    font-size: 12px;
+    border-radius: 7px 7px 7px;
+    border: none;
+    background-color: #7494EA;
+    color: white;
+}
+.wind {
+    height: 7rem;
+    width: 7rem;
+    position: relative;
+    top: 1rem;
+}
+.water-text {
+    position: relative;
+    top: 1rem;
+}
+
+.water {
+    height: 7rem;
+    width: 7rem;
+    position: relative;
+    top: 1rem;
+}
+.temp-text {
+    position: relative;
+    left: 3rem;
+    bottom: 5rem;
+    font-size: 64px;
+    font-weight: normal;
+}
+.feelsLike-text {
+    margin: 0;
+}
+.feelsLike-container {
+    position: relative;
+    right: 5rem;
+    top: 4rem;
+}
+.thermometer {
+    height: 12rem;
+    width: 12rem;
+    position: relative;
+    bottom: 6rem;
+    left: 5rem;
+}

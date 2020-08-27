@@ -1,0 +1,62 @@
+.v-l {
+  border-left: 3px solid grey;
+  height:500px;
+  opacity: .4;
+  position: relative;
+  left: 44rem;
+  bottom: 15rem;
+    width: 3px;
+}
+.title-text{
+    font-size: 48px;
+}
+.local-container {
+    position: relative;
+    left: 12rem;
+    top: 12rem;
+}
+.local-btn, .local-btn:hover,
+.local-btn:focus, .local-btn:active {
+    position: relative;
+    left: 7rem;
+    width: 12rem;
+    height: 5rem;
+    font-size: 18px;
+    border-radius: 7px 7px 7px;
+    border: none;
+    background-color: #7494EA;
+    color: white;
+}
+.form-label {
+    
+    position: relative;
+    left: 5rem;
+    bottom: 1rem;
+    font-size: 24px;
+}
+.submit-btn, .submit-btn:hover, 
+.submit-btn:focus, .submit-btn:active {
+    position: relative;
+    top: 5rem;
+    right: 28rem;
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 18px;
+    border-radius: 7px 7px 7px;
+    border: none;
+    background-color: #7494EA;
+    color: white;
+}
+.form-control {
+    position: relative;
+    top: 2rem;
+    right: 10rem;
+    font-size: 24px;
+    
+}
+.search-container {
+    position: relative;
+    left: 54rem;
+    bottom: 1rem;
+
+}
